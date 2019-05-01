@@ -22,6 +22,10 @@
                 </el-menu-item-group>
                 <el-menu-item-group title="Form">
                   <el-menu-item index="2-4"><router-link to="/radio">Radio 单选框</router-link></el-menu-item>
+                  <el-menu-item index="2-5"><router-link to="/checkbox">Checkbox 多选框</router-link></el-menu-item>
+                  <el-menu-item index="2-6"><router-link to="/input">Input 输入框</router-link></el-menu-item>
+                  <el-menu-item index="2-7"><router-link to="/inputNumber">InputNumber 计数器</router-link></el-menu-item>
+                  
                 </el-menu-item-group>
                 <el-submenu index="2-4">
                   <template slot="title">选项4</template>
