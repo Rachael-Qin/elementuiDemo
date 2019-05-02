@@ -25,7 +25,13 @@
                   <el-menu-item index="2-5"><router-link to="/checkbox">Checkbox 多选框</router-link></el-menu-item>
                   <el-menu-item index="2-6"><router-link to="/input">Input 输入框</router-link></el-menu-item>
                   <el-menu-item index="2-7"><router-link to="/inputNumber">InputNumber 计数器</router-link></el-menu-item>
-                  
+                  <el-menu-item index="2-8"><router-link to="/select">Select 选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-9"><router-link to="/cascader">Cascader 级联选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-10"><router-link to="/switch">Switch 级联选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-10"><router-link to="/slider">Slider 滑块</router-link></el-menu-item>
+                  <el-menu-item index="2-11"><router-link to="/timepicker">TimePicker 时间选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-12"><router-link to="/datepicker">DatePicker 日期选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-13"><router-link to="/datetimepicker">DateTimePicker 日期时间选择器</router-link></el-menu-item>
                 </el-menu-item-group>
                 <el-submenu index="2-4">
                   <template slot="title">选项4</template>
