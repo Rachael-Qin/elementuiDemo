@@ -18,7 +18,7 @@
     </el-row>
     <el-row>
       <span>隐藏tooltip ：（ :show-tooltip="false" ）</span>
-      <el-slider 
+      <el-slider
           v-model="value1"
           @change="handleChange" :show-tooltip="false">
       </el-slider>
@@ -77,34 +77,34 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
-        value1: 0,
-        value2: 60,
-        value3: [4,8],
-        value4:[40,60],
-        marks:{
-          0: '0℃',
-          8: '8℃',  
-          37: '37℃',
-          50: {
-            style: {
-              color: '#1989FA'
-            },
-            label: this.$createElement('strong', '50%')
-          }
+      value1: 0,
+      value2: 60,
+      value3: [4, 8],
+      value4: [40, 60],
+      marks: {
+        0: '0℃',
+        8: '8℃',
+        37: '37℃',
+        50: {
+          style: {
+            color: '#1989FA'
+          },
+          label: this.$createElement('strong', '50%')
         }
-        
-	  };
-	},
-	methods:{
-		handleChange(val){
-			console.log(val)
-		},
-    formatTooltip(val){
-      return val/100;
+      }
+
+	  }
+  },
+  methods: {
+    handleChange (val) {
+      console.log(val)
+    },
+    formatTooltip (val) {
+      return val / 100
     }
-	}
+  }
 }
 </script>
 

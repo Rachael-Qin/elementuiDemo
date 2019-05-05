@@ -52,13 +52,13 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
 	    radio: '1',
 	    radio2: 6,
-	    radio3:'北京'
-	  };
-	}
+	    radio3: '北京'
+	  }
+  }
 }
 </script>
 

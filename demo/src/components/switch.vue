@@ -49,21 +49,21 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
-        value1: true,
-        value2: false,
-        value3: true,
-        value4: true,
-        value5:'100'
-        
-	  };
-	},
-	methods:{
-		handleChange(val){
-			console.log(val)
-		}
-	}
+      value1: true,
+      value2: false,
+      value3: true,
+      value4: true,
+      value5: '100'
+
+	  }
+  },
+  methods: {
+    handleChange (val) {
+      console.log(val)
+    }
+  }
 }
 </script>
 

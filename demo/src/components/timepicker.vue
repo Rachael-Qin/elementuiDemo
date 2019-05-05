@@ -80,26 +80,26 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
-        value1: '',
-        value2: new Date(2016, 9, 10, 18, 40),
-        value3: new Date(2016, 9, 10, 18, 40),
-        startTime:'',
-        endTime:'',
-        value4: [new Date(2016, 9, 10, 8, 40), new Date(2016, 9, 10, 9, 40)],
-        value5: [new Date(2016, 9, 10, 8, 40), new Date(2016, 9, 10, 9, 40)]
-        
-	  };
-	},
-	methods:{
-		handleChange(val){
-			console.log(val)
-		},
-    formatTooltip(val){
-      return val/100;
+      value1: '',
+      value2: new Date(2016, 9, 10, 18, 40),
+      value3: new Date(2016, 9, 10, 18, 40),
+      startTime: '',
+      endTime: '',
+      value4: [new Date(2016, 9, 10, 8, 40), new Date(2016, 9, 10, 9, 40)],
+      value5: [new Date(2016, 9, 10, 8, 40), new Date(2016, 9, 10, 9, 40)]
+
+	  }
+  },
+  methods: {
+    handleChange (val) {
+      console.log(val)
+    },
+    formatTooltip (val) {
+      return val / 100
     }
-	}
+  }
 }
 </script>
 

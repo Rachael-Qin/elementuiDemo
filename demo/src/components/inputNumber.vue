@@ -47,17 +47,17 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
-	    num:1,
-	    numP:1
-	  };
-	},
-	methods:{
-		handleChange(val){
-			console.log(val)
-		}
-	}
+	    num: 1,
+	    numP: 1
+	  }
+  },
+  methods: {
+    handleChange (val) {
+      console.log(val)
+    }
+  }
 }
 </script>
 

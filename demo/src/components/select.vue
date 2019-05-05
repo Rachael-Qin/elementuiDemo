@@ -76,7 +76,7 @@
 
 <script>
 export default {
-	data () {
+  data () {
 	  return {
 	    select1: [{
 	          value: '选项1',
@@ -94,63 +94,63 @@ export default {
 	          value: '选项5',
 	          label: '北京烤鸭'
 	        }],
-	    val1:'',
+	    val1: '',
 	    select2: [{
 	          value: '选项1',
 	          label: '黄金糕',
-	          disabled:true
+	          disabled: true
 	        }, {
 	          value: '选项2',
 	          label: '双皮奶',
-	          disabled:false
+	          disabled: false
 	        }, {
 	          value: '选项3',
 	          label: '蚵仔煎',
-	          disabled:false
+	          disabled: false
 	        }, {
 	          value: '选项4',
 	          label: '龙须面',
-	          disabled:true
+	          disabled: true
 	        }, {
 	          value: '选项5',
 	          label: '北京烤鸭',
-	          disabled:false
+	          disabled: false
 	        }],
-	    val2:'',
-	    val3:[],
+	    val2: '',
+	    val3: [],
 	    select4: [{
-          label: '热门城市',
-          options: [{
-            value: 'Shanghai',
-            label: '上海'
-          }, {
-            value: 'Beijing',
-            label: '北京'
-          }]
+        label: '热门城市',
+        options: [{
+          value: 'Shanghai',
+          label: '上海'
         }, {
-          label: '城市名',
-          options: [{
-            value: 'Chengdu',
-            label: '成都'
-          }, {
-            value: 'Shenzhen',
-            label: '深圳'
-          }, {
-            value: 'Guangzhou',
-            label: '广州'
-          }, {
-            value: 'Dalian',
-            label: '大连'
-          }]
-        }],
-        val4:''
-	  };
-	},
-	methods:{
-		handleChange(val){
-			console.log(val)
-		}
-	}
+          value: 'Beijing',
+          label: '北京'
+        }]
+      }, {
+        label: '城市名',
+        options: [{
+          value: 'Chengdu',
+          label: '成都'
+        }, {
+          value: 'Shenzhen',
+          label: '深圳'
+        }, {
+          value: 'Guangzhou',
+          label: '广州'
+        }, {
+          value: 'Dalian',
+          label: '大连'
+        }]
+      }],
+      val4: ''
+	  }
+  },
+  methods: {
+    handleChange (val) {
+      console.log(val)
+    }
+  }
 }
 </script>
 

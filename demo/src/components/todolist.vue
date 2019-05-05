@@ -52,7 +52,7 @@
               </template>
           </el-table-column>
         </el-table>
-        
+
       </el-main>
     </el-container>
   </div>
@@ -60,49 +60,49 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       content: '',
-      list:[] //{id:1,content:'张三',isFinish:false}
+      list: [] // {id:1,content:'张三',isFinish:false}
     }
   },
   name: 'HelloWorld',
   props: {
     msg: String
   },
-  methods:{
-    add:function(){
-      var date = new Date();
-      var time = date.getTime();
-      var len = this.list.length;
-      var id= 1;
-      if(len > 0){
-        id= this.list[len-1].id+1;
+  methods: {
+    add: function () {
+      var date = new Date()
+      var time = date.getTime()
+      var len = this.list.length
+      var id = 1
+      if (len > 0) {
+        id = this.list[len - 1].id + 1
       }
-      this.list.push({id:id,content:this.content,isFinish:false});
-      this.content = '';
+      this.list.push({ id: id, content: this.content, isFinish: false })
+      this.content = ''
     },
-    //删除
-    deleteRow(index,rows){
-      rows.splice(index,1);
+    // 删除
+    deleteRow (index, rows) {
+      rows.splice(index, 1)
     },
-    unfinish(){
-      var o = [];
-      this.list.forEach(item=>{
-        if(!item.isFinish){
-          o.push(item);
+    unfinish () {
+      var o = []
+      this.list.forEach(item => {
+        if (!item.isFinish) {
+          o.push(item)
         }
       })
-      return o;
+      return o
     },
-    finished(){
-      var o = [];
-      this.list.forEach(item=>{
-        if(item.isFinish){
-          o.push(item);
+    finished () {
+      var o = []
+      this.list.forEach(item => {
+        if (item.isFinish) {
+          o.push(item)
         }
       })
-      return o;
+      return o
     }
   }
 }

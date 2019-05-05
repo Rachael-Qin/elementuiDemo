@@ -69,30 +69,30 @@
 </template>
 
 <script>
-const cityOptions = ['北京','上海','深圳','广州','杭州','贵阳'];
+const cityOptions = ['北京', '上海', '深圳', '广州', '杭州', '贵阳']
 export default {
-	data () {
+  data () {
 	  return {
 	    cheacked: true,
-	    checkList:['选项A','选中且禁用'],
-	    cities:cityOptions,
-	    checkAll:false,
-	    checkedCities:['北京','上海'],
-	    isIndeterminate:true
-	  };
-	},
-	methods:{
-		handleCheckAllChange(val) {
-	        this.checkedCities = val ? cityOptions : [];
-	        this.isIndeterminate = false;
+	    checkList: ['选项A', '选中且禁用'],
+	    cities: cityOptions,
+	    checkAll: false,
+	    checkedCities: ['北京', '上海'],
+	    isIndeterminate: true
+	  }
+  },
+  methods: {
+    handleCheckAllChange (val) {
+	        this.checkedCities = val ? cityOptions : []
+	        this.isIndeterminate = false
 	    },
-	    handleCheckedCitiesChange(value) {
-	        let checkedCount = value.length;
-	        this.checkAll = checkedCount === this.cities.length;
-	        this.isIndeterminate = checkedCount > 0 && checkedCount < this.cities.length;
+	    handleCheckedCitiesChange (value) {
+	        let checkedCount = value.length
+	        this.checkAll = checkedCount === this.cities.length
+	        this.isIndeterminate = checkedCount > 0 && checkedCount < this.cities.length
 	    }
 
-	}
+  }
 }
 </script>
 
