@@ -72,8 +72,6 @@ export default {
   },
   methods: {
     add: function () {
-      var date = new Date()
-      var time = date.getTime()
       var len = this.list.length
       var id = 1
       if (len > 0) {

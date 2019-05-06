@@ -1,3 +1,5 @@
+/* eslint-disable */
+// eslint-disable-next-line
 <template>
 	<div class="button-container">
 		<h3>基础的按钮用法</h3>
@@ -87,6 +89,7 @@
 </script>
 
 <style scoped>
+ /*eslint-disable-next-line*/
 	.el-row{
 		margin-bottom: 10px;
 	}

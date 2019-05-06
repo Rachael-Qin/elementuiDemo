@@ -15,6 +15,10 @@ import switchC from './components/switch.vue'
 import slider from './components/slider.vue'
 import timepicker from './components/timepicker.vue'
 import datepicker from './components/datepicker.vue'
+import upload from './components/upload.vue'
+import rate from './components/rate.vue'
+import colorpicker from './components/colorpicker.vue'
+import form from './components/form.vue'
 
 import datetimepicker from './components/datetimepicker.vue'
 
@@ -36,7 +40,11 @@ var router = new VueRouter({
 	   { path: '/slider', component: slider },
 	   { path: '/timepicker', component: timepicker },
 	   { path: '/datepicker', component: datepicker },
-	   { path: '/datetimepicker', component: datetimepicker }
+	   { path: '/datetimepicker', component: datetimepicker },
+	   { path: '/upload', component: upload },
+	   { path: '/rate', component: rate },
+	   { path: '/colorpicker', component: colorpicker },
+	   { path: '/form', component: form }
   ]
 })
 

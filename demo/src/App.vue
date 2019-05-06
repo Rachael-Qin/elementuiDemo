@@ -5,7 +5,7 @@
       <el-container class="main-container">
           <!-- 侧边栏 区域 -->
           <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
-            <el-menu :default-openeds="['2', '2']">
+            <el-menu :default-openeds="['1']">
               <el-submenu index="1">
                 <template slot="title"><i class="el-icon-message"></i>小项目例子</template>
                 <el-menu-item-group>
@@ -32,6 +32,10 @@
                   <el-menu-item index="2-11"><router-link to="/timepicker">TimePicker 时间选择器</router-link></el-menu-item>
                   <el-menu-item index="2-12"><router-link to="/datepicker">DatePicker 日期选择器</router-link></el-menu-item>
                   <el-menu-item index="2-13"><router-link to="/datetimepicker">DateTimePicker 日期时间选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-14"><router-link to="/upload">Upload 上传</router-link></el-menu-item>
+                  <el-menu-item index="2-15"><router-link to="/rate">Rate 评分</router-link></el-menu-item>
+                  <el-menu-item index="2-16"><router-link to="/colorpicker">ColorPicker 颜色选择器</router-link></el-menu-item>
+                  <el-menu-item index="2-17"><router-link to="/form">Form 表单</router-link></el-menu-item>
                 </el-menu-item-group>
               </el-submenu>
             </el-menu>

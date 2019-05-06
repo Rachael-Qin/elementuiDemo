@@ -112,7 +112,4 @@ export default {
 	.el-row{
 		margin-bottom: 10px;
 	}
-	.el-input .el-select {
-	    width: 130px;
-	}
 </style>
