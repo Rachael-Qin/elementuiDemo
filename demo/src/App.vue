@@ -7,36 +7,45 @@
           <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
             <el-menu :default-openeds="['1']">
               <el-submenu index="1">
-                <template slot="title"><i class="el-icon-message"></i>小项目例子</template>
-                <el-menu-item-group>
-                  <el-menu-item index="1-1"><router-link to="/todolist">todolist</router-link></el-menu-item>
-                </el-menu-item-group>
+                  <template slot="title"><i class="el-icon-message"></i>小项目例子</template>
+                  <el-menu-item-group>
+                    <el-menu-item index="1-1"><router-link to="/todolist">todolist</router-link></el-menu-item>
+                  </el-menu-item-group>
               </el-submenu>
-               <el-submenu index="2">
-                <template slot="title"><i class="el-icon-menu"></i>组件</template>
-                <el-menu-item-group>
-                  <template slot="title">basic</template>
-                  <el-menu-item index="2-1"><router-link to="/icon">icon 图标</router-link></el-menu-item>
-                  <el-menu-item index="2-2"><router-link to="/button">button 按钮</router-link></el-menu-item>
-                  <el-menu-item index="2-3"><router-link to="/link">link 链接</router-link></el-menu-item>
-                </el-menu-item-group>
-                <el-menu-item-group title="Form">
-                  <el-menu-item index="2-4"><router-link to="/radio">Radio 单选框</router-link></el-menu-item>
-                  <el-menu-item index="2-5"><router-link to="/checkbox">Checkbox 多选框</router-link></el-menu-item>
-                  <el-menu-item index="2-6"><router-link to="/input">Input 输入框</router-link></el-menu-item>
-                  <el-menu-item index="2-7"><router-link to="/inputNumber">InputNumber 计数器</router-link></el-menu-item>
-                  <el-menu-item index="2-8"><router-link to="/select">Select 选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-9"><router-link to="/cascader">Cascader 级联选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-10"><router-link to="/switch">Switch 级联选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-10"><router-link to="/slider">Slider 滑块</router-link></el-menu-item>
-                  <el-menu-item index="2-11"><router-link to="/timepicker">TimePicker 时间选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-12"><router-link to="/datepicker">DatePicker 日期选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-13"><router-link to="/datetimepicker">DateTimePicker 日期时间选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-14"><router-link to="/upload">Upload 上传</router-link></el-menu-item>
-                  <el-menu-item index="2-15"><router-link to="/rate">Rate 评分</router-link></el-menu-item>
-                  <el-menu-item index="2-16"><router-link to="/colorpicker">ColorPicker 颜色选择器</router-link></el-menu-item>
-                  <el-menu-item index="2-17"><router-link to="/form">Form 表单</router-link></el-menu-item>
-                </el-menu-item-group>
+              <el-submenu index="2">
+                  <template slot="title"><i class="el-icon-menu"></i>Basic</template>
+                  <el-menu-item-group>
+                      <el-menu-item index="2-1"><router-link to="/icon">icon 图标</router-link></el-menu-item>
+                      <el-menu-item index="2-2"><router-link to="/button">button 按钮</router-link></el-menu-item>
+                      <el-menu-item index="2-3"><router-link to="/link">link 链接</router-link></el-menu-item>
+                  </el-menu-item-group>
+              </el-submenu>
+              <el-submenu index="3">
+                  <template slot="title"><i class="el-icon-menu"></i>Form</template>
+                  <el-menu-item-group title="">
+                      <el-menu-item index="3-1"><router-link to="/radio">Radio 单选框</router-link></el-menu-item>
+                      <el-menu-item index="3-2"><router-link to="/checkbox">Checkbox 多选框</router-link></el-menu-item>
+                      <el-menu-item index="3-3"><router-link to="/input">Input 输入框</router-link></el-menu-item>
+                      <el-menu-item index="3-4"><router-link to="/inputNumber">InputNumber 计数器</router-link></el-menu-item>
+                      <el-menu-item index="3-5"><router-link to="/select">Select 选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-6"><router-link to="/cascader">Cascader 级联选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-7"><router-link to="/switch">Switch 级联选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-8"><router-link to="/slider">Slider 滑块</router-link></el-menu-item>
+                      <el-menu-item index="3-9"><router-link to="/timepicker">TimePicker 时间选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-10"><router-link to="/datepicker">DatePicker 日期选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-11"><router-link to="/datetimepicker">DateTimePicker 日期时间选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-12"><router-link to="/upload">Upload 上传</router-link></el-menu-item>
+                      <el-menu-item index="3-13"><router-link to="/rate">Rate 评分</router-link></el-menu-item>
+                      <el-menu-item index="3-14"><router-link to="/colorpicker">ColorPicker 颜色选择器</router-link></el-menu-item>
+                      <el-menu-item index="3-15"><router-link to="/form">Form 表单</router-link></el-menu-item>
+                  </el-menu-item-group>
+              </el-submenu>
+              <el-submenu index="4">
+                  <template slot="title"><i class="el-icon-menu"></i>Data</template>
+                  <el-menu-item-group>
+                      <el-menu-item index="4-1"><router-link to="/table1">Table 表格1</router-link></el-menu-item>
+                      <el-menu-item index="4-2"><router-link to="/table2">Table 表格2</router-link></el-menu-item>
+                  </el-menu-item-group>
               </el-submenu>
             </el-menu>
           </el-aside>

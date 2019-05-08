@@ -20,6 +20,9 @@ import rate from './components/rate.vue'
 import colorpicker from './components/colorpicker.vue'
 import form from './components/form.vue'
 
+import table1 from './components/table1.vue'
+import table2 from './components/table2.vue'
+
 import datetimepicker from './components/datetimepicker.vue'
 
 // 创建路由对象
@@ -44,7 +47,9 @@ var router = new VueRouter({
 	   { path: '/upload', component: upload },
 	   { path: '/rate', component: rate },
 	   { path: '/colorpicker', component: colorpicker },
-	   { path: '/form', component: form }
+	   { path: '/form', component: form },
+	   { path: '/table1', component: table1 },
+	   { path: '/table2', component: table2 }
   ]
 })
 
