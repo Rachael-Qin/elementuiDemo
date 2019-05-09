@@ -45,6 +45,10 @@
                   <el-menu-item-group>
                       <el-menu-item index="4-1"><router-link to="/table1">Table 表格1</router-link></el-menu-item>
                       <el-menu-item index="4-2"><router-link to="/table2">Table 表格2</router-link></el-menu-item>
+                      <el-menu-item index="4-3"><router-link to="/tag">Tag 标签</router-link></el-menu-item>
+                      <el-menu-item index="4-4"><router-link to="/progress">Progress 进度条</router-link></el-menu-item>
+                      <el-menu-item index="4-5"><router-link to="/pagination">Pagination 进度条</router-link></el-menu-item>
+                      <el-menu-item index="4-6"><router-link to="/badge">badge 标记</router-link></el-menu-item>
                   </el-menu-item-group>
               </el-submenu>
             </el-menu>

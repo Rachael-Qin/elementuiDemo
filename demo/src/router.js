@@ -22,6 +22,10 @@ import form from './components/form.vue'
 
 import table1 from './components/table1.vue'
 import table2 from './components/table2.vue'
+import tag from './components/tag.vue'
+import progress from './components/progress.vue'
+import pagination from './components/pagination.vue'
+import badge from './components/badge.vue'
 
 import datetimepicker from './components/datetimepicker.vue'
 
@@ -49,7 +53,11 @@ var router = new VueRouter({
 	   { path: '/colorpicker', component: colorpicker },
 	   { path: '/form', component: form },
 	   { path: '/table1', component: table1 },
-	   { path: '/table2', component: table2 }
+	   { path: '/table2', component: table2 },
+	   { path: '/tag', component: tag },
+	   { path: '/progress', component: progress },
+	   { path: '/pagination', component: pagination },
+	   { path: '/badge', component: badge }
   ]
 })
 
