@@ -27,6 +27,10 @@ import progress from './components/progress.vue'
 import pagination from './components/pagination.vue'
 import badge from './components/badge.vue'
 
+import alert1 from './components/alert.vue'
+import loading from './components/loading.vue'
+import message from './components/message.vue'
+
 import datetimepicker from './components/datetimepicker.vue'
 
 // 创建路由对象
@@ -57,7 +61,10 @@ var router = new VueRouter({
 	   { path: '/tag', component: tag },
 	   { path: '/progress', component: progress },
 	   { path: '/pagination', component: pagination },
-	   { path: '/badge', component: badge }
+	   { path: '/badge', component: badge },
+	   { path: '/alert', component: alert1 },
+	   { path: '/loading', component: loading },
+	   { path: '/message', component: message }
   ]
 })
 
