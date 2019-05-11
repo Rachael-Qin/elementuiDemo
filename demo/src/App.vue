@@ -57,6 +57,8 @@
                       <el-menu-item index="5-1"><router-link to="/alert">Alert 警告</router-link></el-menu-item>
                       <el-menu-item index="5-2"><router-link to="/loading">Loading 加载</router-link></el-menu-item>
                       <el-menu-item index="5-3"><router-link to="/message">Message 消息提示</router-link></el-menu-item>
+                      <el-menu-item index="5-4"><router-link to="/messageBox">MessageBox 弹框</router-link></el-menu-item>
+                      <el-menu-item index="5-5"><router-link to="/notification">Notification 通知</router-link></el-menu-item>
                   </el-menu-item-group>
               </el-submenu>
             </el-menu>

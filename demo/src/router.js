@@ -30,6 +30,8 @@ import badge from './components/badge.vue'
 import alert1 from './components/alert.vue'
 import loading from './components/loading.vue'
 import message from './components/message.vue'
+import messageBox from './components/messageBox.vue'
+import notification from './components/notification.vue'
 
 import datetimepicker from './components/datetimepicker.vue'
 
@@ -64,7 +66,9 @@ var router = new VueRouter({
 	   { path: '/badge', component: badge },
 	   { path: '/alert', component: alert1 },
 	   { path: '/loading', component: loading },
-	   { path: '/message', component: message }
+	   { path: '/message', component: message },
+	   { path: '/messageBox', component: messageBox },
+	   { path: '/notification', component: notification }
   ]
 })
 
