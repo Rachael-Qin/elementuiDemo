@@ -61,6 +61,16 @@
                       <el-menu-item index="5-5"><router-link to="/notification">Notification 通知</router-link></el-menu-item>
                   </el-menu-item-group>
               </el-submenu>
+              <el-submenu index="6">
+                  <template slot="title"><i class="el-icon-menu"></i>Navigation</template>
+                  <el-menu-item-group>
+                      <el-menu-item index="6-1"><router-link to="/navMenu">NavMenu 导航菜单</router-link></el-menu-item>
+                      <el-menu-item index="6-2"><router-link to="/tabs">Tabs 标签页</router-link></el-menu-item>
+                      <el-menu-item index="6-3"><router-link to="/breadcrumb">Breadcrumb 面包屑</router-link></el-menu-item>
+                      <el-menu-item index="6-4"><router-link to="/dropdown">Dropdown 下拉菜单</router-link></el-menu-item>
+                      <el-menu-item index="6-5"><router-link to="/steps">Steps 步骤条</router-link></el-menu-item>
+                  </el-menu-item-group>
+              </el-submenu>
             </el-menu>
           </el-aside>
           <!-- 主体内容 区域 -->

@@ -33,6 +33,12 @@ import message from './components/message.vue'
 import messageBox from './components/messageBox.vue'
 import notification from './components/notification.vue'
 
+import navMenu from './components/navMenu.vue'
+import tabs from './components/tabs.vue'
+import breadcrumb from './components/breadcrumb.vue'
+import dropdown from './components/dropdown.vue'
+import steps from './components/steps.vue'
+
 import datetimepicker from './components/datetimepicker.vue'
 
 // 创建路由对象
@@ -68,7 +74,12 @@ var router = new VueRouter({
 	   { path: '/loading', component: loading },
 	   { path: '/message', component: message },
 	   { path: '/messageBox', component: messageBox },
-	   { path: '/notification', component: notification }
+	   { path: '/notification', component: notification },
+	   { path: '/navMenu', component: navMenu },
+	   { path: '/tabs', component: tabs },
+	   { path: '/breadcrumb', component: breadcrumb },
+	   { path: '/dropdown', component: dropdown },
+	   { path: '/steps', component: steps }
   ]
 })
 
