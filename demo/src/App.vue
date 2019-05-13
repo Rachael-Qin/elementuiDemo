@@ -71,6 +71,21 @@
                       <el-menu-item index="6-5"><router-link to="/steps">Steps 步骤条</router-link></el-menu-item>
                   </el-menu-item-group>
               </el-submenu>
+              <el-submenu index="7">
+                  <template slot="title"><i class="el-icon-menu"></i>Others</template>
+                  <el-menu-item-group>
+                      <el-menu-item index="7-1"><router-link to="/dialog">Dialog 对话框</router-link></el-menu-item>
+                      <el-menu-item index="7-2"><router-link to="/tooltip">Tooltip 文字提示</router-link></el-menu-item>
+                      <el-menu-item index="7-3"><router-link to="/popover">Popover 弹出框</router-link></el-menu-item>
+                      <el-menu-item index="7-4"><router-link to="/card">Card 卡片</router-link></el-menu-item>
+                      <el-menu-item index="7-5"><router-link to="/carousel">Carousel 走马灯</router-link></el-menu-item>
+                      <el-menu-item index="7-6"><router-link to="/collapse">collapse 折叠面板</router-link></el-menu-item>
+                      <el-menu-item index="7-7"><router-link to="/timeline">timeline 时间线</router-link></el-menu-item>
+                      <el-menu-item index="7-8"><router-link to="/divider">Divider 分割线</router-link></el-menu-item>
+                      <el-menu-item index="7-9"><router-link to="/calendar">Calendar 日历</router-link></el-menu-item>
+                      <el-menu-item index="7-10"><router-link to="/image">Image 图片</router-link></el-menu-item>
+                  </el-menu-item-group>
+              </el-submenu>
             </el-menu>
           </el-aside>
           <!-- 主体内容 区域 -->

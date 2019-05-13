@@ -39,6 +39,17 @@ import breadcrumb from './components/breadcrumb.vue'
 import dropdown from './components/dropdown.vue'
 import steps from './components/steps.vue'
 
+import dialog from './components/dialog.vue'
+import tooltip from './components/tooltip.vue'
+import popover from './components/popover.vue'
+import card from './components/card.vue'
+import carousel from './components/carousel.vue'
+import collapse from './components/collapse.vue'
+import timeline from './components/timeline.vue'
+import divider from './components/divider.vue'
+import calendar from './components/calendar.vue'
+import image from './components/image.vue'
+
 import datetimepicker from './components/datetimepicker.vue'
 
 // 创建路由对象
@@ -79,7 +90,18 @@ var router = new VueRouter({
 	   { path: '/tabs', component: tabs },
 	   { path: '/breadcrumb', component: breadcrumb },
 	   { path: '/dropdown', component: dropdown },
-	   { path: '/steps', component: steps }
+	   { path: '/steps', component: steps },
+	   { path: '/dialog', component: dialog },
+	   { path: '/tooltip', component: tooltip },
+	   { path: '/popover', component: popover },
+	   { path: '/card', component: card },
+	   { path: '/carousel', component: carousel },
+	   { path: '/collapse', component: collapse },
+	   { path: '/timeline', component: timeline },
+	   { path: '/divider', component: divider },
+	   { path: '/calendar', component: calendar },
+	   { path: '/image', component: image }
+
   ]
 })
 
